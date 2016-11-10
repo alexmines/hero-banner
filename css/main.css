@@ -7,14 +7,29 @@ html {
   box-sizing: inherit;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+body {
+  margin: 0
 }
 
 .banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+
+}
+
+.banner-content {
+  position: absolute;
+  width: 100%;
+  margin: 0;
   max-width: 50em;
-  height: 500px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 h1 {
